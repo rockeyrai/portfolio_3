@@ -1,14 +1,23 @@
 import React from 'react'
+import {Route,BrowserRouter as Router,Routes} from 'react-router-dom';
+import { Home,About,Project, Contact } from './pages';
+import Navbar from './components/Navbar';
+
+
 
 const App = () => {
-  console.log('hello')
   return (
-    <div>
-      <h1  className='text-red-500 bold text-xl underline'>hello</h1>
-      <div className=''>
-
-      </div>
-    </div>
+    <main className="bg-slate-300/20">
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/project' element={<Project/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+        </Routes>
+      </Router>
+    </main>
   )
 }
 
