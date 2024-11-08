@@ -8,7 +8,7 @@ import islandScene from "../assets/3d/island.glb";
 export function Island({
   isRotating,
   setIsRotating,
-  setCurrentStage =()=>{},
+  setCurrentStage,
   currentFocusPoint,
   ...props
 }) {
