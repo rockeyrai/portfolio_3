@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <main className="bg-slate-300/20">
+    <main className="bg-slate-300/20 ">
       <Router future={{ v7_relativeSplatPath: true }}>
         <Navbar/>
         <Routes>

@@ -88,80 +88,80 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
+    // {
+    //     imageUrl: sass,
+    //     name: "Sass",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "MERN Stack Course",
+        company_name: "Broadway Infosys",
+        icon: '/brodway.png',
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Aug 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Gained hands-on experience with Git and GitHub, understanding their crucial role in team collaboration and version control.",
+            "Developed proficiency in React and core hooks such as useState and useRef, with a solid understanding of component-based architecture.",
+            "Worked with various UI kits and libraries, including Next UI, ShadCN, and GSAP, to enhance design and interactivity.",
+            "Established a strong foundation in JavaScript and backend principles to support full-stack development."
+        ]
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Data Structures and Algorithms",
+        company_name: "APNA COLLEGE",
+        icon: './apnacollege.png',
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Sept 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Understanding of Time and Space Complexity, including O(n)",
+            "Familiarity with Search and Sorting Algorithms",
+            "Proficiency in working with 2D Arrays",
+            "Problem Solving on algorithmic challenges such as: Maximum Subarray Sum,Mojority Element,Buy and Sell Stock,Container with Most Water Peak Index in a mountain Array,etc ",   
+          ]
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "System Design for Beginners Course",
+        company_name: "freeCodeCamp.org",
+        icon: '/freecodecamp.png',
+        iconBg: "#000000",
+        date: "Oct 2024 - Nov 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Scalability - Design the system to handle increased loads efficiently and support growth over time.",
+            "Reliability - Ensure the system maintains functionality under different conditions and minimizes downtime.",
+            "Availability - Maximize the uptime of the system to ensure continuous accessibility for users.",
+            "Performance - Optimize response time and system speed to improve user experience and support large traffic volumes."
+          ]
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "HTML & CSS",
+        company_name: "APNA COLLEGE",
+        icon: './apnacollege.png',
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Feb 2024 - Mar 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "HTML Structure - Learned how to use HTML tags to structure content, like headings, paragraphs, and links.",
+            "CSS Styling - Understood how CSS is used to style elements, such as colors, fonts, and layouts.",
+            "Responsive Design - Gained knowledge of making web pages look good on any device using media queries.",
+            "Box Model - Discovered the box model, which helps in understanding padding, borders, margins, and how elements are spaced."
+          ]
     },
 ];
 
