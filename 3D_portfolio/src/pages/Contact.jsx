@@ -2,9 +2,12 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
-import { Fox } from "../models";
+
 import useAlert from "../hooks/useAlert";
-import { Alert, Loader } from "../components";
+
+import { Fox } from "../models/Fox";
+import Loader from "../components/Loader";
+import Alert from "../components/Alert";
 
 const Contact = () => {
   const formRef = useRef();
@@ -89,7 +92,7 @@ const Contact = () => {
               type='text'
               name='name'
               className='input'
-              placeholder='John'
+              placeholder='Rockey'
               required
               value={form.name}
               onChange={handleChange}
@@ -103,7 +106,7 @@ const Contact = () => {
               type='email'
               name='email'
               className='input'
-              placeholder='John@gmail.com'
+              placeholder='Rockey@gmail.com'
               required
               value={form.email}
               onChange={handleChange}
@@ -156,7 +159,7 @@ const Contact = () => {
             intensity={2}
           />
 
-          <Suspense fallback={<Loader />}>
+          <Suspense fallback={<Loader/>}>
             <Fox
               currentAnimation={currentAnimation}
               position={[0.5, 0.35, 0]}
