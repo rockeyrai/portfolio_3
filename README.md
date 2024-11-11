@@ -12,6 +12,21 @@ This is my third attempt at creating a personal portfolio, and it features an im
 
 ---
 
+### **Image & Demo**
+
+<img src="public/screenshorts/image1.jpg" alt="Description of Image 1" width="100%"/>
+<p align ="center">
+
+<img src="public/screenshorts/image2.png" alt="Description of Image 2" width="33%"/>
+<img src="public/screenshorts/image3.png" alt="Description of Image 3" width="33%"/>
+<img src="public/screenshorts/image4.png" alt="Description of Image 1" width="33%"/>
+</p>
+
+
+<video src="public/video/video1.mp4" controls width="100%"></video>
+<video src="public/video/video2.mp4" controls width="100%"></video>
+<video src="public/video/video3.mp4" controls width="100%"></video>
+
 ### **Technologies Used**
 
 **Languages:**  
