@@ -23,9 +23,10 @@ This is my third attempt at creating a personal portfolio, and it features an im
 </p>
 
 
-<video src="public/video/video1.mp4" controls width="100%"></video>
-<video src="public/video/video2.mp4" controls width="100%"></video>
-<video src="public/video/video3.mp4" controls width="100%"></video>
+![Video 1](public/gifs/video1.gif)
+![Video 2](public/gifs/video2.gif)
+![Video 3](public/gifs/video3.gif)
+
 
 ### **Technologies Used**
 
