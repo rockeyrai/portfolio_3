@@ -4,10 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/profile/', // Set the base path to '/profile/' if that's where it's deployed
   build: {
-    rollupOptions: {
-      external: ['react-router-dom'],
-    },
+    outDir: 'dist',   // Output directory
   },
   assetsInclude:['**/*.glb']
 })
