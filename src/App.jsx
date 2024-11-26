@@ -9,7 +9,7 @@ const App = () => {
   return (
     <main className="bg-slate-300/20 ">
 
-      <Router basename='/3d-portfolio' future={{ v7_relativeSplatPath: true }}>
+      <Router basename='/portfolio_3' future={{ v7_relativeSplatPath: true }}>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
